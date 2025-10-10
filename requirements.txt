@@ -1,0 +1,21 @@
+# Core deep learning frameworks
+torch>=2.0.0
+
+# Hugging Face ecosystem for transformer models
+transformers>=4.44.0
+datasets>=3.0.0
+evaluate>=0.4.1
+accelerate>=0.33.0
+
+# Data manipulation and preprocessing
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Visualization and exploratory analysis
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities
+sentencepiece>=0.2.0
+tqdm>=4.66.0
