@@ -35,7 +35,8 @@
 - **Section 2 – BERT Family Evaluation:** Tokenizes reviews to 256 tokens and benchmarks three pre-trained transformers on test/validation splits without fine-tuning.
 - **Section 3 – Fine-Tuning:** Applies consistent training arguments drawn from the original BERT paper, evaluates per model, and visualizes accuracy/F1 improvements plus loss curves.
 - **Section 4 – Learning Rate Tuning:** Runs additional tests on BERT-base with warmup + linear decay to study how learning rate impacts F1.
-- **Other Sections WIP**
+- **Section 5 - Best BERT Model Tuning:** Using BERT-base, we run additional parameter tests to find the best possible combination for sentiment analysis using F1 score.
+- **Section 6 - Conclusion and Summary:** Summarize project methodology and experimental results.
 - **Appendix:** Credits external references (HuggingFace docs, community guides) used to adapt training utilities.
 
 ## Running the Analysis
